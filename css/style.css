@@ -1,0 +1,374 @@
+.index
+{
+    background-color: #010103;
+}
+.colorx
+{
+    color: #c7a17a;
+    background-color: #010103;
+}
+#Home
+{
+    background-image: url(../images/hero-img-3-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  background-position: center top;
+ 
+
+   
+}
+
+.products
+{
+    background-image: url(../images/pp-bg-3-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%;
+    height: 100vh; */
+
+}
+.main_menu nav > ul > li.active > a
+{
+    color: white !important ;
+}
+.bg-nav
+{
+    background-color:#010103;
+    
+}
+.bg-d1
+{
+    background-color: #13131A;
+}
+
+.navbar-toggler-icon
+{
+    background-color:#c7a17a;
+}
+.dcolor
+{
+    font-family: 'Lobster Two', sans-serif;
+font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link.active
+{
+
+color: #c7a17a !important;
+}
+
+.ctn{
+    background-color: #c7a17a ;
+    color: #000;
+  
+   
+    
+}
+.ct{
+   
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+.ctn:hover{
+    background-color: black;
+   color: #c7a17a ;
+   border-style: solid;
+   border-color: #c7a17a ;
+}
+.ct:hover
+{
+    background-color: black;
+    border-style: none;
+ 
+}
+#bg
+{
+    background-image: url(../images/bg-img-1_1512x.webp);
+    background-size: cover;
+  height: 40%;
+}
+
+#bg1
+{
+    background-image: url(../images/bg-2.webp);
+    background-size: cover;
+    /* height: 1200px; */
+}
+.bgcolor
+{
+    background-color: #c7a17a !important;
+}
+
+#bg2
+{
+    background-image: url(../images/bg-3_1512x.webp);
+    background-size: cover;
+  /* height: 1610px;
+   */
+}
+
+#bg3
+{
+    background-image: url(../images/background_image_01.webp);
+    background-size: cover;
+  /* height: 1600px; */
+  
+}
+
+        
+#bgabout
+{
+    background-image: url(../images/breadcrumb-bg-1.jpeg);
+    background-size: cover;
+  
+}
+.zimg
+{ 
+    position: relative;
+    left: 50px;
+    top: 100px;
+    z-index: -1;
+}
+
+.bdak1
+{
+
+    background-image: url(../images/about-shape-2-1.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.bdak2
+{
+
+    background-image: url(../images/about-shape-2-2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+
+.zimg2
+{ 
+    position: relative;
+    left: -200px;
+    top: 100px;
+    z-index: -1;
+}
+.zimg3
+{
+    position: relative;
+    left: -150px;
+    top: 100px;
+}
+
+.zimg4
+{
+    position: relative;
+    left: -70px;
+    top: 100px;
+    z-index: 1;
+}
+.wv
+{
+    width: 500px;
+}
+
+.kh
+{
+    display: none;
+}
+
+ .mgh1:hover .kh 
+{
+  
+  display: block;
+
+}
+
+.corls
+{
+    color: black !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   
+    background-color:#c7a17a !important;
+}
+
+.nav-link {
+ 
+    color: white !important ;
+}
+
+.feature-item
+{
+    opacity: .7;
+
+}
+.feature-item::after {
+    position: absolute;
+    left: 12;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    height: 4px;
+    width: 0%;
+    background: #C7A17A;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    z-index: 2;
+  }
+
+  .feature-item:hover::after {
+    width: 94.7% ;
+    height: 3%;
+  }
+
+  .menu-aftr::after
+  {
+    position: absolute;
+    left: 0;
+    content: "";
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #C7A17A;
+    right: 100%;
+    width: 0%;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    
+}
+  
+  .menu-aftr:hover::after {
+    width: 100%;
+    height: 100%;
+   
+  }
+
+
+  .team-overley {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5) ;
+    visibility: hidden;
+    opacity: 0 ; 
+    transition: 1s ;    
+}
+
+.team-item:hover  .team-overley {
+    opacity: 0.6 ;
+    visibility: visible;
+    
+}
+.team-overley  a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* background-color: rgb(32, 205, 248); */
+    color: #fff;
+    font-size: 23px;
+    margin-left: auto ;
+    border: 1px solid grey;
+    margin: 6px;
+}
+.team-overley  i
+{
+    padding: 12px 12px;
+}
+.team-item {
+  
+    position: relative;
+}
+
+.team-item::after {
+    position: absolute;
+    content: "";
+
+    width: 100% ;
+    height: 0 ;
+
+    bottom: 0;
+    left: 0;
+    background-color: #c7a17a;
+     
+    opacity: 0 ;
+    transition: 1s;
+}
+.team-item:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5 ;
+}
+.imgcar
+{
+    width: 10%;
+
+}
+.arrow:hover
+{
+    background-color: #C7A17A;
+    
+}
+.colr
+{
+    color: #c7a17a;
+}
+.card img
+{
+    transition: 0.9s;
+}
+.card:hover img
+{
+    transform: scale(.9);
+}
+
+.nav-about
+{
+    color: #010103 !important;
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 30px;
+}
+.nav-about1
+{
+    color: #010103 !important;
+    font-size: 20px;
+}
+
+
+
+.setting 
+{
+    top: 40%;
+    right: 0%;
+    z-index: 1;
+   
+}
+
+.setting button i{
+    color: #000;
+}
+.setting button:hover i{
+color: #000;
+}
+.setting button .lng-btn
+{
+    display: none;
+    color: #000;
+    font-family: "qatarmed";
+    font-size: 25px;
+}
+.setting button:hover .lng-btn
+{
+   display: block;
+}
+.setting button
+{
+
+   background-color: #c7a17a;
+   color: #000;
+}
+
